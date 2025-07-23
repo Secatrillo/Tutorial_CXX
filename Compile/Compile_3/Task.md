@@ -33,9 +33,9 @@
 
 Для компиляции необходимо написать данную команду в консоли с отрытой в ней директорией проекта:
 ```bash
-g++ -o build/prog ./Compile/Compile_3/Start.cpp ./Compile/Compile_3/Def.cpp ./Compile/Compile_3/Def_2/Def2.cpp ./Compile/Compile_3/Def.hpp ./Compile/Compile_3/Def_2/Def2.hpp
+g++ -o build/compile_3 ./Compile/Compile_3/Start.cpp ./Compile/Compile_3/Def.cpp ./Compile/Compile_3/Def_2/Def2.cpp ./Compile/Compile_3/Def.hpp ./Compile/Compile_3/Def_2/Def2.hpp
 ```
 Чтобы запустить программу введите:
 ```bash
-./build/prog <arg>
+./build/compile_3 <arg>
 ```

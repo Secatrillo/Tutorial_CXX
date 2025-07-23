@@ -6,14 +6,14 @@
 
 Для того чтобы скомпилировать простую программу (`Hello, World!`), необходимо написать в командной строке:
 ```bash
-g++ -o ./build/hello ./Compile/Compile_1/Start.cpp 
+g++ -o ./build/compile_1 ./Compile/Compile_1/Start.cpp 
 ```
 Для запуска скомпилированной программы:
 ```bash
-./build/hello
+./build/compile_1
 ```
 Данная программа имеет несколько поддерживаемых параметров ввода, чтобы их посмотреть необходимо вызвать справку:
 ```bash
-./build/hello -h
+./build/compile_1 -h
 ```
 
